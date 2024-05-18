@@ -38,7 +38,7 @@ To obtain a Kuki AI API key, follow these steps:
 3. Once logged in, navigate to your account settings or dashboard.
 4. Look for the section related to API access or integration.
 5. Generate an API key or copy the existing one provided.
-6. Paste the API key into the `.env` file in the `server` directory of your project.
+6. Paste the API key into the `.env` file in the `client` directory of your project.
 
 ## Usage
 ### Starting the Server
