@@ -3,6 +3,12 @@
 ## Description
 Wellness_Chat_AI is a project that implements a Health and Wellness Chatbot using React for the frontend and Express for the backend. The chatbot interacts with users, providing responses related to health and wellness queries. Kuki AI service is used for the chatbot functionality.
 
+## Screenshots
+### Chatbot Interface , User Input & Bot Response 
+![Chatbot Screenshot](screenshots/Screenshot1.png)
+![Chatbot Screenshot](screenshots/Screenshot2.png)
+![Chatbot Screenshot](screenshots/Screenshot3.png)
+
 ## Installation
 1. Clone the repository:
     ```sh
