@@ -1,34 +1,80 @@
-# Wellness AI
+# Wellness_Chat_AI
 
 ## Description
-Wellness AI is a simple chatbot prototype developed to provide users with health and wellness tips. It leverages the Kuki AI API to generate responses based on user queries.
+Wellness_Chat_AI is a project that implements a Health and Wellness Chatbot using React for the frontend and Express for the backend. The chatbot interacts with users, providing responses related to health and wellness queries. Kuki AI service is used for the chatbot functionality.
 
-## Features
-- User-friendly interface for interacting with the chatbot
-- Integration with Kuki AI API for generating responses
-- Error handling for managing API errors and invalid inputs
-- Logging of user interactions
+## Installation
+1. Clone the repository:
+    ```sh
+    git clone <repository-url>
+    ```
+2. Navigate to the project directory:
+    ```sh
+    cd wellness_AI
+    ```
+3. Install Node.js if not already installed. You can download it from [here](https://nodejs.org/en/download/) and follow the installation instructions for your operating system.
 
-## Technologies Used
-- Frontend:
-  - React.js
-  - Bootstrap
+4. Install project dependencies:
+    ```sh
+    # Install server dependencies
+    cd server
+    npm install
 
-- Backend:
-  - Express.js
-  - Axios
-  - Body-parser
-  - Dotenv
-  - CORS
+    # Install client dependencies
+    cd ../client
+    npm install
+    ```
+   
+5. Create a `.env` file in the `server` directory:
+    ```
+    REACT_APP_KUKI_API_KEY=your_kuki_api_key_here
+    ```
+    Replace `your_kuki_api_key_here` with your actual Kuki API key.
 
-## Getting Started
-To get a local copy up and running follow these simple steps.
+## Usage
+### Starting the Server
+1. Navigate to the server directory:
+    ```sh
+    cd server
+    ```
+2. Start the server:
+    ```sh
+    npm start
+    ```
 
-### Prerequisites
-- Node.js installed on your local machine
-- API key for the Kuki AI service
+### Starting the Client
+1. Navigate to the client directory:
+    ```sh
+    cd ../client
+    ```
+2. Start the client:
+    ```sh
+    npm start
+    ```
 
-### Installation
-1. Clone the repo
-   ```sh
-   git clone https://github.com/your_username/Wellness_Chat_AI.git
+## Dependencies
+### Client
+- [Node.js](https://nodejs.org/) - JavaScript runtime built on Chrome's V8 JavaScript engine.
+- [React](https://reactjs.org/) - JavaScript library for building user interfaces.
+- [Bootstrap](https://getbootstrap.com/) - Front-end framework for designing responsive and mobile-first websites.
+- [axios](https://github.com/axios/axios) - Promise-based HTTP client for the browser and Node.js.
+
+### Server
+- [Node.js](https://nodejs.org/) - JavaScript runtime built on Chrome's V8 JavaScript engine.
+- [Express](https://expressjs.com/) - Web application framework for Node.js.
+- [axios](https://github.com/axios/axios) - Promise-based HTTP client for the browser and Node.js.
+- [body-parser](https://www.npmjs.com/package/body-parser) - Middleware to parse request bodies.
+- [cors](https://github.com/expressjs/cors) - Middleware to enable Cross-Origin Resource Sharing.
+- [dotenv](https://github.com/motdotla/dotenv) - Module to load environment variables from a .env file into process.env.
+
+## Scripts
+- `npm start`: Start the Express server.
+- `npm run client`: Start the React client.
+- `npm run dev`: Concurrently run both server and client.
+
+## Contributing
+Contributions are welcome. Please open an issue to discuss proposed changes or submit a pull request directly.
+
+## License
+This project is licensed under the ISC License. See the [LICENSE](LICENSE) file for details.
+
