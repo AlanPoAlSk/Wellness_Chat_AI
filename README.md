@@ -31,6 +31,15 @@ Wellness_Chat_AI is a project that implements a Health and Wellness Chatbot usin
     ```
     Replace `your_kuki_api_key_here` with your actual Kuki API key.
 
+## Obtaining Kuki AI API Key
+To obtain a Kuki AI API key, follow these steps:
+1. Visit the [Kuki AI website](https://kuki.ai/).
+2. Sign up for an account or log in if you already have one.
+3. Once logged in, navigate to your account settings or dashboard.
+4. Look for the section related to API access or integration.
+5. Generate an API key or copy the existing one provided.
+6. Paste the API key into the `.env` file in the `server` directory of your project.
+
 ## Usage
 ### Starting the Server
 1. Navigate to the server directory:
