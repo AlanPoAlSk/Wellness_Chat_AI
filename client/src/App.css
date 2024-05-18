@@ -1,0 +1,29 @@
+.chat-container {
+  max-height: 60vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.d-inline-block {
+  word-wrap: break-word;
+}
+
+.align-self-end {
+  text-align: right;
+  margin-left: auto;
+}
+
+.align-self-start {
+  text-align: left;
+  margin-right: auto;
+}
+
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.input-group {
+  justify-content: center;
+}
